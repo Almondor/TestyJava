@@ -1,6 +1,6 @@
-Feature:Changing user address
+Feature:The user addresses operations
 
-Scenario Outline: User changing address
+Scenario Outline: The user adds a new address
  Given User is on "https://mystore-testlab.coderslab.pl/index.php"
   When User click Sign in
    And User types valid Email and Password and press Sign in
@@ -14,16 +14,16 @@ Scenario Outline: User changing address
     | Vlad          | Orcs street      | Moscow           | 545-321           | Russia         | 999999999    |
     | Mike Vasowsky | Fast street      | Toronto          | 824343            | United Kingdom | 111111111    |
 
-  Scenario Outline: User changing address (dodatkowe)
+  Scenario Outline: The user adds a new address and removes it
     Given User is on "https://mystore-testlab.coderslab.pl/index.php"
-    When User click Sign in
-    And User types valid Email and Password and press Sign in
-    And User click Addresses button
-    And User click Add a new address tile
-    And User input "<alias>" and "<address>" and "<city>" and "<zip/postal code>" and "<country>" and "<phone>"
-    And User press save
-    And User deletes address
-    Then User deleted address
+     When User click Sign in
+      And User types valid Email and Password and press Sign in
+      And User click Addresses button
+      And User click Add a new address tile
+      And User input "<alias>" and "<address>" and "<city>" and "<zip/postal code>" and "<country>" and "<phone>"
+      And User press save
+      And User deletes address
+     Then User deleted address
 
     Examples:
       | alias         | address          | city             | zip/postal code   | country        | phone        |

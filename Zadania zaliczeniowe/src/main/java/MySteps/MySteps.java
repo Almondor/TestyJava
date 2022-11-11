@@ -7,12 +7,11 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.*;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import java.io.File;
-import java.util.Objects;
 import java.util.concurrent.TimeUnit;
 
 public class MySteps {
@@ -48,7 +47,7 @@ public class MySteps {
 
 
 
-//  Zadanie 1
+//  Zadanie 1 Dodanie nowego adresu
 
     @And("User click Addresses button")
     public void userClickAddressesButton() {
@@ -85,7 +84,7 @@ public class MySteps {
 
 
 
-// Zadanie 1 Dodatkowe
+// Zadanie 1 Dodanie nowego adresu oraz jego usunięcie
 
     @And("User press save")
     public void userPressSave() {
@@ -102,12 +101,12 @@ public class MySteps {
     @Then("User deleted address")
     public void userDeletedAddress() throws Exception {
         Utils utils = new Utils(driver);
-        utils.takeSnapShot(driver,"C:\\Users\\Komputerek Adaś\\Desktop\\ScreanShots\\test2.png");
+        utils.takeSnapShot(driver,"C:\\Users\\Komputerek Adaś\\Desktop\\ScreanShots\\Usuwanie adresu.png");
     }
 
 
 
-//  Zadanie 2
+//  Zadanie 2 zakup swetra
 
     @And("User go to MainPage")
     public void userGoToMainPage() {
@@ -188,10 +187,22 @@ public class MySteps {
     @Then("User bought item")
     public void userBoughtItem() throws Exception {
         Utils utils = new Utils(driver);
-        utils.takeSnapShot(driver,"C:\\Users\\Komputerek Adaś\\Desktop\\ScreanShots\\test.png");
+        utils.takeSnapShot(driver,"C:\\Users\\Komputerek Adaś\\Desktop\\ScreanShots\\Status zamównienia.png");
 
     }
 
+// Zadanie 2 Zakup swetra oraz sprawdzenie jego statusu
+    @And("User bought item and checks it status")
+    public void userBoughtItemAndChecksItStatus() {
+        OrderPage orderPage = new OrderPage(driver);
+        orderPage.AccountPage();
+        AccountPage accountPage = new AccountPage(driver);
+        accountPage.OrdersPage();
+    }
 
-
+    @Then("User has checked the order status")
+    public void userHasCheckedTheOrderStatus() throws Exception {
+        Utils utils = new Utils(driver);
+        utils.takeSnapShot(driver,"C:\\Users\\Komputerek Adaś\\Desktop\\ScreanShots\\Historia zamówienia.png");
+    }
 }

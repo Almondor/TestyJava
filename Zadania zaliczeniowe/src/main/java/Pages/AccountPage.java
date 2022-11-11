@@ -21,6 +21,11 @@ private final WebDriver driver;
         MainPage.click();
     }
 
+    public void OrdersPage(){
+        WebElement orders = driver.findElement(By.id("history-link"));
+        orders.click();
+    }
+
 
     }
 
