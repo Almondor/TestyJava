@@ -29,6 +29,15 @@ Scenario Outline: The user adds a new address
       | alias         | address          | city             | zip/postal code   | country        | phone        |
       | Mike Vasowsky | Fast street      | Toronto          | 824343            | United Kingdom | 111111111    |
 
-
-
+  Scenario: New user creating account
+    Given User is on "https://mystore-testlab.coderslab.pl/index.php"
+     When User click Sign in
+      And User click create new account
+      And User choose "Mrs"
+      And User input first name
+      And User input last name
+      And User input email
+      And User input password
+      And User click save
+     Then User created new account
 

@@ -205,4 +205,56 @@ public class MySteps {
         Utils utils = new Utils(driver);
         utils.takeSnapShot(driver,"C:\\Users\\Komputerek Adaś\\Desktop\\ScreanShots\\Historia zamówienia.png");
     }
+
+    @And("User click create new account")
+    public void userClickCreateNewAccount() {
+        SignInPage signInPage = new SignInPage(driver);
+        signInPage.newUser();
+    }
+
+    @And("User choose {string}")
+    public void userChoose(String sex) {
+        NewAccountPage newAccountPage = new NewAccountPage(driver);
+        newAccountPage.sex(sex);
+    }
+
+    @And("User input first name")
+    public void userInputFirstName() {
+        NewAccountPage newAccountPage = new NewAccountPage(driver);
+        newAccountPage.firstName();
+    }
+
+    @And("User input last name")
+    public void userInputLastName() {
+        NewAccountPage newAccountPage = new NewAccountPage(driver);
+        newAccountPage.lastName();
+    }
+
+    @And("User input email")
+    public void userInputEmail() {
+        NewAccountPage newAccountPage = new NewAccountPage(driver);
+        newAccountPage.email();
+    }
+
+    @And("User input password")
+    public void userInputPassword() throws Exception {
+        NewAccountPage newAccountPage = new NewAccountPage(driver);
+        newAccountPage.password();
+        WebElement show = driver.findElement(By.xpath("//*[@id=\"customer-form\"]/div/div[5]/div[1]/div/span/button"));
+        show.click();
+        Utils utils = new Utils(driver);
+        utils.takeSnapShot(driver,"C:\\Users\\Komputerek Adaś\\Desktop\\ScreanShots\\Dane nowego konta.png");
+    }
+
+    @And("User click save")
+    public void userClickSave() {
+        NewAccountPage newAccountPage = new NewAccountPage(driver);
+        newAccountPage.save();
+    }
+
+
+    @Then("User created new account")
+    public void userCreatedNewAccount() {
+
+    }
 }

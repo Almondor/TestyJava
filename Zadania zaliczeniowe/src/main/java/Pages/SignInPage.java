@@ -19,5 +19,10 @@ public class SignInPage {
         signIn.click();
     }
 
+    public void newUser(){
+        WebElement newUser = driver.findElement(By.xpath("//*[@id=\"content\"]/div/a"));
+        newUser.click();
+    }
+
 
 }
