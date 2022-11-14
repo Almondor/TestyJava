@@ -25,5 +25,10 @@ public class MainPage {
 
     }
 
+    public void accountPage(){
+        WebElement accountPage = driver.findElement(By.xpath("//*[@id=\"_desktop_user_info\"]/div/a[2]/span"));
+        accountPage.click();
+    }
+
 
 }

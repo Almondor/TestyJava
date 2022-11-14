@@ -1,6 +1,6 @@
 package CheatSheets;
 
-import net.bytebuddy.dynamic.scaffold.TypeWriter;
+
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 

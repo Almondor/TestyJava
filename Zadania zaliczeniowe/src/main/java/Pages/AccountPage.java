@@ -26,6 +26,11 @@ private final WebDriver driver;
         orders.click();
     }
 
+    public void newAddress(){
+        WebElement newAddress = driver.findElement(By.xpath("//*[@id=\"address-link\"]/span/i"));
+        newAddress.click();
+    }
+
 
     }
 

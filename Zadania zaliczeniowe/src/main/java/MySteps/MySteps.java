@@ -252,9 +252,48 @@ public class MySteps {
         newAccountPage.save();
     }
 
-
     @Then("User created new account")
     public void userCreatedNewAccount() {
+        driver.quit();
+    }
+
+    @When("{string} create new account")
+    public void createNewAccount(String sex) {
+        MainPage mainPage = new MainPage(driver);
+        mainPage.signIn();
+        SignInPage signInPage = new SignInPage(driver);
+        signInPage.newUser();
+        NewAccountPage newAccountPage = new NewAccountPage(driver);
+        newAccountPage.newUser(sex);
+    }
+
+
+    @And("User click account button")
+    public void userClickAccountButton() {
+        MainPage mainPage = new MainPage(driver);
+        mainPage.accountPage();
 
     }
+
+    @And("User click add first address")
+    public void userClickAddFirstAddress() {
+        AccountPage accountPage = new AccountPage(driver);
+        accountPage.newAddress();
+    }
+
+    @And("User fills in the address details and press save")
+    public void userFillsInTheAddressDetailsAndPressSave() throws Exception {
+        NewAddressPage newAddressPage = new NewAddressPage(driver);
+        newAddressPage.fullAddress();
+        Utils utils = new Utils(driver);
+        utils.takeSnapShot(driver,"C:\\Users\\Komputerek Adaś\\Desktop\\ScreanShots\\Adres nowego użytkownika.png");
+        newAddressPage.Save();
+    }
+
+    @Then("User has added a new address")
+    public void userHasAddedANewAddress() {
+        driver.quit();
+    }
+
+
 }

@@ -11,8 +11,7 @@ public class DataFaker {
     public static String createRandomEmail(){
         Random r = new Random();
         int randomNumber = r.nextInt(0, 1001);
-        String randomEmail = String.format("test@test%s.com", randomNumber);
-        return randomEmail;
+        return String.format("%s%s@test.com",faker.artist().name(),randomNumber);
     }
 
     public static String createRandomFirstName(){return faker.name().firstName();}
@@ -29,10 +28,11 @@ public class DataFaker {
 
     public static String createRandomZip(){
         Random n = new Random();
-        Random m = new Random();
         int firstNumber = n.nextInt(1,99);
+        Random m = new Random();
         int secondNumber = m.nextInt(100,999);
-        return String.format(String.valueOf(firstNumber),"-",secondNumber);
+        return String.format("%s-%s",firstNumber,secondNumber);
+
     }
 
     public static String createRandomAlias(){return faker.ancient().titan();}
