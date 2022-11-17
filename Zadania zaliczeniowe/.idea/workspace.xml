@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a13d8614-79ae-4ebe-b397-01a86745aeed" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../MyStore/src/main/java/CheatSheets/CheatSheet1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyStore/src/main/java/CheatSheets/CheatSheet1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CheatSheets/CheatSheet1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CheatSheets/CheatSheet2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MySteps/MySteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/AccountPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/AddressesCheckout.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/AddressesPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/BasketPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/MainPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/NewAccountPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/NewAddressPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/OrderPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/PaymentPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/ShippingMethodPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/SignInPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/SweaterPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/DataFaker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Drivers/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Fetures/NewUser.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Fetures/Zadanie 1.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Fetures/Zadanie2.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CheatSheets/CheatSheet1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CheatSheets/CheatSheet2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Drivers/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MySteps/MySteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/AccountPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/AddressesCheckout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/AddressesPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/BasketPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/MainPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/NewAccountPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/NewAddressPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/OrderPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/PaymentPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/ShippingMethodPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/SignInPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/SweaterPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utils/DataFaker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utils/Utils.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2HP3jUb7BayzxHpNK8QSSGBZ3Is" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Komputerek Adaś/Desktop/TestyJava/MyStore&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Komputerek Adaś\Desktop\TestyJava\Zadania zaliczeniowe\src\test\java\Fetures" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Pages" />
+      <recent name="MySteps" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: New user creating account and adding new address">
+    <configuration name="Scenario: New user creating account and adding new address" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Fetures/NewUser.feature" />
+      <option name="GLUE" value="MySteps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="untitled" />
+      <option name="NAME_FILTER" value="^New user creating account and adding new address$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^New user creating account and adding new address$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: New user creating account and adding new address" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: The user adds a new address and removes it" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Fetures/Zadanie 1.feature" />
+      <option name="GLUE" value="MySteps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="untitled" />
+      <option name="NAME_FILTER" value="^The user adds a new address and removes it$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^The user adds a new address and removes it$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: The user adds a new address and removes it" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: The user adds a new address" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Fetures/Zadanie 1.feature" />
+      <option name="GLUE" value="MySteps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="untitled" />
+      <option name="NAME_FILTER" value="^The user adds a new address$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^The user adds a new address$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: The user adds a new address" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: The user orders a sweater and checks the status of the order" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Fetures/Zadanie2.feature" />
+      <option name="GLUE" value="MySteps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="untitled" />
+      <option name="NAME_FILTER" value="^The user orders a sweater and checks the status of the order$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^The user orders a sweater and checks the status of the order$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: The user orders a sweater and checks the status of the order" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: The user orders a sweater" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Fetures/Zadanie2.feature" />
+      <option name="GLUE" value="MySteps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="untitled" />
+      <option name="NAME_FILTER" value="^The user orders a sweater$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^The user orders a sweater$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: The user orders a sweater" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Scenario: New user creating account and adding new address" />
+        <item itemvalue="Cucumber Java.Scenario: The user adds a new address and removes it" />
+        <item itemvalue="Cucumber Java.Scenario: The user adds a new address" />
+        <item itemvalue="Cucumber Java.Scenario: The user orders a sweater and checks the status of the order" />
+        <item itemvalue="Cucumber Java.Scenario: The user orders a sweater" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a13d8614-79ae-4ebe-b397-01a86745aeed" name="Changes" comment="" />
+      <created>1668173026713</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668173026713</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.AssertionError" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
